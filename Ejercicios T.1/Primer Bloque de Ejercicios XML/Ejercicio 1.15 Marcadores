@@ -1,0 +1,20 @@
+<!-- Ejercicio 1.15: Lista de marcadores web sin atributos -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<portales>
+	<portal>
+		<nombre>Xataka</nombre>
+		<descripcion>Publicación de noticias sobre gadgets y tecnología. Últimas tecnologías en electrónica de consumo y novedades tecnológicas en móviles, tablets, informática, ...</descripcion>
+		<URL>https://www.xataka.com/</URL>
+	</portal>
+	<portal>
+		<nombre>Genbeta</nombre>
+		<descripcion>Software, internet y productividad. Novedades web, con trucos, herramientas y artículos con enfoque útil para nuestras vidas.</descripcion>
+		<URL>https://www.genbeta.com/</URL>
+	</portal>
+	<portal>
+		<nombre>The Verge</nombre>
+		<descripcion><em>The Verge</em> is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning&nbsp;...</descripcion>
+		<URL>https://www.theverge.com/</URL>
+	</portal>
+</portales>

@@ -1,0 +1,81 @@
+{
+  "razon_social": "Tech Solutions & Software S.L.",
+  "cif": "B12345678",
+  "sede_central": "Valencia",
+  "departamentos": [
+    {
+      "nombre": "Móvil Android",
+      "empleados": [
+        {
+          "nombre": "Adriana Gómez",
+          "rol_tecnico": "Desarrolladora Android Júnior",
+          "salario_bruto_anual": 24000.00,
+          "habilidades": [
+            "Kotlin",
+            "Jetpack Compose",
+            "Corrutinas"
+          ],
+          "mentor_asignado": "Carlos Mendoza"
+        },
+        {
+          "nombre": "Lucas Peralta",
+          "rol_tecnico": "Desarrollador Android Trainee",
+          "salario_bruto_anual": 18000.00,
+          "habilidades": [
+            "Kotlin",
+            "Android SDK",
+            "Git"
+          ],
+          "mentor_asignado": null
+        }
+      ]
+    },
+    {
+      "nombre": "Backend Cloud",
+      "empleados": [
+        {
+          "nombre": "Carlos Mendoza",
+          "rol_tecnico": "Arquitecto Backend & Cloud",
+          "salario_bruto_anual": 48000.00,
+          "habilidades": [
+            "Java",
+            "Spring Boot",
+            "Docker",
+            "AWS",
+            "MySQL"
+          ],
+          "mentor_asignado": null
+        },
+        {
+          "nombre": "Elena Vega",
+          "rol_tecnico": "Desarrolladora Backend",
+          "salario_bruto_anual": 32000.00,
+          "habilidades": [
+            "Java",
+            "Spring Boot",
+            "REST APIs",
+            "PostgreSQL"
+          ],
+          "mentor_asignado": "Carlos Mendoza"
+        }
+      ]
+    },
+    {
+      "nombre": "Calidad y Testing",
+      "empleados": [
+        {
+          "nombre": "Marcos Ríos",
+          "rol_tecnico": "Ingeniero de QA y Automatización",
+          "salario_bruto_anual": 30000.00,
+          "habilidades": [
+            "JUnit",
+            "Selenium",
+            "Mockito",
+            "Postman"
+          ],
+          "mentor_asignado": null
+        }
+      ]
+    }
+  ]
+}

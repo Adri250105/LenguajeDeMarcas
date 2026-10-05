@@ -1,0 +1,17 @@
+<!-- Ejercicio 1.30: Integración de metadatos estandarizados Dublin Core en un catálogo editorial -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca_dublincore xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:abastos="https://biblioteca.abastos.edu">
+<libros>
+	<libro>
+		<dc:title>Java a Fondo</dc:title>
+		<dc:creator>Pablo Augusto Sznajdleder</dc:creator>
+		<dc:publisher>Alfaomega</dc:publisher>
+		<dc:date>2021</dc:date>
+		<cd:identifier>978-987-1609-24-6</cd:identifier>
+		<cd:language>Espanyol</cd:language>
+		<abastos:ubication>Pasillo 3 Estantería B</abastos:ubication>
+		<abastos:dias_prestamo>15</abastos:dias_prestamo>
+	</libro>
+</libros>
+</biblioteca_dublincore>

@@ -1,0 +1,35 @@
+<!-- Ejercicio 1.16: Modelado de clubes de fútbol y plantilla de jugadores -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+	<equipo>
+		<nombre>Masclets Levante UD</nombre>
+		<ciudad>Valencia</ciudad>
+		<estadio>Polideportivo Universidad de Valencia</estadio>
+		<jugadores>
+			<jugador posicion = "Potero">
+				<nombre>Alfredo</nombre>
+				<nacionalidad>Espanyola</nacionalidad>
+			</jugador>
+			<jugador posicion = "Lateral Derecho">
+				<nombre>Adriana</nombre>
+				<nacionalidad>Espanyola</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo>
+	<equipo>
+		<nombre>Dracs CEA</nombre>
+		<ciudad>Barcelona</ciudad>
+		<estadio>Malgrat del Mar</estadio>
+		<jugadores>
+			<jugador posicion = "Delantero">
+				<nombre>Roger</nombre>
+				<nacionalidad>Espanyola</nacionalidad>
+			</jugador>
+			<jugador posicion = "Lateral Izquierdo">
+				<nombre>Asier</nombre>
+				<nacionalidad>Espanyola</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo>
+</equipos>

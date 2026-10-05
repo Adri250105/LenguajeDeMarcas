@@ -1,0 +1,42 @@
+{
+  "aula": "A001-O",
+  "fecha_revision": "2026-09-14",
+  "perifericos": [
+    {
+      "modelo": "UltraSharp U2723QE",
+      "fabricante": "Dell",
+      "cantidad": 24,
+      "precio_unitario": 485.50,
+      "garantia_vigente": true,
+      "especificaciones": {
+        "panel": "IPS Black",
+        "resolucion": "3840x2160",
+        "conexiones": ["HDMI 2.1", "DisplayPort 1.4", "USB-C 90W"]
+      }
+    },
+    {
+      "modelo": "MX Mechanical",
+      "fabricante": "Logitech",
+      "cantidad": 24,
+      "precio_unitario": 129.99,
+      "garantia_vigente": true,
+      "especificaciones": {
+        "interruptores": "Tactile Quiet",
+        "inalambrico": true,
+        "bateria_dias": 15
+      }
+    },
+    {
+      "modelo": "Precision 3660 Tower",
+      "fabricante": "Dell",
+      "cantidad": 24,
+      "precio_unitario": 1250.00,
+      "garantia_vigente": false,
+      "especificaciones": {
+        "procesador": "Intel Core i7-13700",
+        "ram_gb": 32,
+        "almacenamiento_ssd_gb": 1024
+      }
+    }
+  ]
+}

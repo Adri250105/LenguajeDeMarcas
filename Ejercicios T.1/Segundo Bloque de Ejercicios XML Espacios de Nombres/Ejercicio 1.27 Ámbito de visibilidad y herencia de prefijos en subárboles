@@ -1,0 +1,31 @@
+<!-- Ejercicio 1.27: Ámbito de visibilidad y herencia de prefijos en subárboles -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<almacen>
+    <seccion id="S1" xmlns:tec="https://tecnologia.org/hardware">
+        <tec:dispositivo>Tarjeta gráfica</tec:dispositivo>
+    </seccion>
+    <seccion id="S2">
+        <tec:dispositivo>Impresora láser</tec:dispositivo>
+    </seccion>
+</almacen>
+
+<!-- 1. ¿Es este documento estrictamente bien formado? ¿Por qué? -->
+
+<!-- No es bien formado. 
+El analizador sintáctico devolverá un error fatal al llegar a la línea 
+<tec:dispositivo>Impresora láser</tec:dispositivo> de la sección S2, 
+informando de que el prefijo tec no está enlazado a ningún espacio de nombres (unbound prefix) -->
+
+<!-- 2. ¿Qué alcance o ámbito (scope) tiene la declaración del prefijo tec:? -->
+
+ <!-- El prefijo tec: fue declarado en la etiqueta de apertura de <seccion id="S1">, 
+ por lo que su visibilidad se restringe exclusivamente al interior de esa primera sección y 
+ desaparece en cuanto se cierra con </seccion> -->
+
+<!-- 3. ¿Cómo debe modificarse el documento para que sea válido y 
+bien formado sin tener que declarar el prefijo en cada sección? -->
+
+<!-- Para que el prefijo tenga ámbito global en todo el documento, 
+su declaración debe trasladarse al elemento raíz 
+<almacen xmlns:tec="https://tecnologia.org/hardware"> -->

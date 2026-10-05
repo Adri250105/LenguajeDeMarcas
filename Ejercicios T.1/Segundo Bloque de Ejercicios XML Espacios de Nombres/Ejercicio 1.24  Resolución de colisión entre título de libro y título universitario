@@ -1,0 +1,25 @@
+<!-- Ejercicio 1.24: Resolución de colisión entre título de libro y título universitario -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiante xmlns:exp="https://www.universidad.es/expedientes"
+            xmlns:bib="https://www.universidad.es/biblioteca">
+			
+			<exp:datos_personales>
+				<exp:nombre>Aída</exp:nombre>
+				<exp:apollidos> Andrés Visquert</exp:apollidos>
+				<exp:dni>12345678A</exp:dni>
+				<exp:titulo>Ingeniera Informática</exp:titulo>
+			</exp:datos_personales>
+			<bib:prestamos>
+				<bib:libro>
+					<bib:titulo></bib:titulo>
+				<bib:autor></bib:autor>
+				<bib:fecha_devolucion></bib:fecha_devolucion>
+				</bib:libro>
+				<bib:libro>
+					<bib:titulo></bib:titulo>
+				<bib:autor></bib:autor>
+				<bib:fecha_devolucion></bib:fecha_devolucion>
+				</bib:libro>
+			</bib:prestamos>
+</estudiante>

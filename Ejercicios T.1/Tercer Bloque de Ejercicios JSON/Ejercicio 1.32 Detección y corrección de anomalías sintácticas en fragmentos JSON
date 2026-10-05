@@ -1,0 +1,10 @@
+{
+  "id": 105,
+  "nombre": "Carlos Benítez",
+  "departamento": "Desarrollo Android",
+  "activo": true,
+  "proyectos": [
+    "App Abastos Móvil",
+    "Portal ERP Corporativo"
+  ]
+}

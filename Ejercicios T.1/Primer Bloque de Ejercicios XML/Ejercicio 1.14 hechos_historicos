@@ -1,0 +1,24 @@
+<!-- Ejercicio 1.14: Modelado de cronología de hechos históricos -->
+<?xml version="1.0" encoding="UTF-8"?>
+<hecos_historicos>
+	<acontecimiento = "Revolución Industrial">
+		<anyo>1760</anyo>
+		<siglo>XVIII</siglo>
+		<lugar>Reino Unido</lugar>
+	</acontecimiento>
+	<acontecimiento = "Revlución Francesa">
+		<anyo>1789</anyo>
+		<siglo>XVIII</siglo>
+		<lugar>Francia</lugar>
+	</acontecimiento>
+	<acontecimiento = "Descubrimiento de América">
+		<anyo>1492</anyo>
+		<siglo>XV</siglo>
+		<lugar>Guanahani/América</lugar>
+	</acontecimiento>
+	<acontecimiento = "Caída de Constantinopla">
+		<anyo>1453</anyo>
+		<siglo>XV</siglo>
+		<lugar>Constantinopla (Imperio Bizantino)</lugar>
+	</acontecimiento>
+</hecos_historicos>

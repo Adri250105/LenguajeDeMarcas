@@ -1,0 +1,11 @@
+Ejercicio 1.9: correción de sintaxis de frutas.xml
+
+<?xml: version = "1.0" encoding = "UTF-8"?>
+<frutas>
+	<fruta>
+	 <nombre>Manzana</nombre>
+	 <color>Verde</color>
+	 <pecio>1.50€</pecio>
+	</fruta>
+</frutas>
+

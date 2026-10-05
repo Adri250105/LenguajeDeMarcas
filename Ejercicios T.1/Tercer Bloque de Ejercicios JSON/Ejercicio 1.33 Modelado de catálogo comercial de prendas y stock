@@ -1,0 +1,50 @@
+{
+  "tienda": "Moda Urbana",
+  "articulos": [
+    {
+      "codigo": "REF-401",
+      "nombre": "Camiseta básica",
+      "categoria": "textil",
+      "precio": 19.99,
+      "tallas": ["S", "M", "L", "XL"],
+      "envio_inmediato": true,
+      "detalles": {
+        "composicion": {
+          "algodon": 95,
+          "elastano": 5
+        },
+        "color_principal": "Negro"
+      }
+    },
+    {
+      "codigo": "REF-402",
+      "nombre": "Pantalón vaquero slim fit",
+      "categoria": "textil",
+      "precio": 45.50,
+      "tallas": ["M", "L", "XL"],
+      "envio_inmediato": false,
+      "detalles": {
+        "composicion": {
+          "algodon": 98,
+          "elastano": 2
+        },
+        "color_principal": "Azul marino"
+      }
+    },
+    {
+      "codigo": "REF-403",
+      "nombre": "Sudadera con capucha",
+      "categoria": "textil",
+      "precio": 39.90,
+      "tallas": ["S", "M", "L"],
+      "envio_inmediato": true,
+      "detalles": {
+        "composicion": {
+          "algodon": 80,
+          "poliester": 20
+        },
+        "color_principal": "Gris marengo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!-- Ejercicio 1.31: Análisis conceptual: identificador URI frente a localización URL -->
+
+<!-- Un alumno afirma en clase: “He puesto en mi XML la dirección xmlns:cli="http://mi-servidor-local/clientes" pero me da miedo que falle cuando no tenga conexión a Internet en casa”. -->
+
+<!-- Redacta en tu libreta una explicación técnica de 10 a 15 líneas dirigida a tu compañero explicando: -->
+
+    <!-- Por qué la conexión a Internet o el estado del servidor web es irrelevante para el parser XML en la interpretación de los espacios de nombres. -->
+    <!-- Cuál es la diferencia entre un URI (Uniform Resource Identifier), un URL (Uniform Resource Locator) y un URN (Uniform Resource Name). -->
+    <!-- Por qué las organizaciones de software prefieren utilizar como URI nombres basados en sus propios dominios de Internet. -->
+
+<!-- La conexión a Internet o el estado del servidor web es irrelevante para el parser XML porque la dirección especificada en xmlns:cli 
+actúa únicamente como una cadena de texto identificadora (URI) y no como una dirección ejecutable. 
+El analizador XML no realiza ninguna petición HTTP ni intenta descargar recursos de la red; 
+simplemente compara la secuencia de caracteres para diferenciar las etiquetas de un espacio de nombres de las de otro -->
+
+<!-- La distinción entre estos tres conceptos: -->
+
+    <!-- URI (Uniform Resource Identifier): Es la categoría general que sirve para identificar un recurso de forma única, ya sea por su nombre, 
+	por su ubicación o por ambos. -->
+
+    <!-- URL (Uniform Resource Locator): Es un tipo específico de URI que especifica la ubicación física/lógica del recurso y 
+	el protocolo para acceder a él (http://, https://). -->
+
+    <!-- URN (Uniform Resource Name): Es un tipo de URI que identifica un recurso de manera única y 
+	persistente a través de su nombre (por ejemplo, urn:isbn:978-0-13-110362-7), sin indicar cómo ni dónde localizarlo -->
+
+<!-- Las organizaciones utilizan sus propios dominios de Internet como URIs por una cuestión de unicidad global. 
+Al ser propietarias exclusivas de sus dominios web, garantizan que ninguna otra entidad cree un espacio de nombres idéntico, 
+evitando así colisiones entre etiquetas XML -->

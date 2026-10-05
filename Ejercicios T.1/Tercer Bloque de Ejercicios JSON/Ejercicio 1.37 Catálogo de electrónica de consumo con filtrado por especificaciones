@@ -1,0 +1,81 @@
+{
+  "tienda": "TechStore Valencia",
+  "dispositivos": [
+    {
+      "id": "DEV-001",
+      "marca": "Samsung",
+      "modelo": "Galaxy S24 Ultra",
+      "tipo": "smartphone",
+      "gama": "alta",
+      "precio": 1459.00,
+      "conectividad": {
+        "conexion_5g": true,
+        "wifi_6e": true,
+        "nfc": true
+      },
+      "dimensiones": {
+        "alto_mm": 162.3,
+        "ancho_mm": 79.0,
+        "grosor_mm": 8.6,
+        "peso_g": 232.0
+      }
+    },
+    {
+      "id": "DEV-002",
+      "marca": "Xiaomi",
+      "modelo": "Redmi Note 13",
+      "tipo": "smartphone",
+      "gama": "media",
+      "precio": 199.99,
+      "conectividad": {
+        "conexion_5g": false,
+        "wifi_6e": false,
+        "nfc": true
+      },
+      "dimensiones": {
+        "alto_mm": 162.2,
+        "ancho_mm": 75.6,
+        "grosor_mm": 7.9,
+        "peso_g": 178.5
+      }
+    },
+    {
+      "id": "DEV-003",
+      "marca": "Apple",
+      "modelo": "iPad Air (M2)",
+      "tipo": "tableta",
+      "gama": "alta",
+      "precio": 699.00,
+      "conectividad": {
+        "conexion_5g": true,
+        "wifi_6e": true,
+        "nfc": false
+      },
+      "dimensiones": {
+        "alto_mm": 247.6,
+        "ancho_mm": 178.5,
+        "grosor_mm": 6.1,
+        "peso_g": 462.0
+      }
+    },
+    {
+      "id": "DEV-004",
+      "marca": "Lenovo",
+      "modelo": "Tab M11",
+      "tipo": "tableta",
+      "gama": "entrada",
+      "precio": 179.00,
+      "conectividad": {
+        "conexion_5g": false,
+        "wifi_6e": false,
+        "nfc": false
+      },
+      "dimensiones": {
+        "alto_mm": 255.3,
+        "ancho_mm": 166.3,
+        "grosor_mm": 7.2,
+        "peso_g": 465.0
+      }
+    }
+  ]
+}

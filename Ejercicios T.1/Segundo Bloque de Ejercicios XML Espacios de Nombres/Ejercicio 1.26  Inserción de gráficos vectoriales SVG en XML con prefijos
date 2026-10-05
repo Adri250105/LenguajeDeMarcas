@@ -1,0 +1,16 @@
+<!-- Ejercicio 1.26: Inserción de gráficos vectoriales SVG en XML con prefijos -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<producto xmlns:svg="http://www.w3.org/2000/svg">
+    <codigo>FERR-8492</codigo>
+    <nombre>Sierra Circular Profesional</nombre>
+    <precio moneda="EUR">129.99</precio>
+    
+    <icono_advertencia>
+        <svg:svg width="100" height="100" viewBox="0 0 100 100">
+            <svg:circle cx="50" cy="50" r="40" fill="yellow" stroke="black" stroke-width="4"/>
+            <svg:line x1="50" y1="28" x2="50" y2="58" stroke="black" stroke-width="6" stroke-linecap="round"/>
+            <svg:line x1="50" y1="70" x2="50" y2="72" stroke="black" stroke-width="6" stroke-linecap="round"/>
+        </svg:svg>
+    </icono_advertencia>
+</producto>

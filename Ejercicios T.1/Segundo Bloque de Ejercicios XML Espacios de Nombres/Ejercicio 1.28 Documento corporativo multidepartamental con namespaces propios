@@ -1,0 +1,33 @@
+<!-- Ejercicio 1.28: Documento corporativo multidepartamental con namespaces propios -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa_integral xmlns:cont="https://iesabastos.es/contabilidad"
+                  xmlns:log="https://iesabastos.es/logistica">
+    
+    <!-- Sección de Contabilidad -->
+    <contabilidad>
+        <cont:factura id="F2026-001">
+            <cont:importe moneda="EUR">1250.00</cont:importe>
+            <cont:fecha>2026-09-15</cont:fecha>
+        </cont:factura>
+        <cont:factura id="F2026-002">
+            <cont:importe moneda="EUR">840.50</cont:importe>
+            <cont:fecha>2026-09-20</cont:fecha>
+        </cont:factura>
+    </contabilidad>
+
+    <!-- Sección de Logística -->
+    <logistica>
+        <log:envio id="ENV-2026-A1">
+            <log:destino>Valencia</log:destino>
+            <log:fecha>2026-09-16</log:fecha>
+            <log:agencia>SEUR</log:agencia>
+        </log:envio>
+        <log:envio id="ENV-2026-A2">
+            <log:destino>Madrid</log:destino>
+            <log:fecha>2026-09-21</log:fecha>
+            <log:agencia>DHL Express</log:agencia>
+        </log:envio>
+    </logistica>
+
+</empresa_integral>

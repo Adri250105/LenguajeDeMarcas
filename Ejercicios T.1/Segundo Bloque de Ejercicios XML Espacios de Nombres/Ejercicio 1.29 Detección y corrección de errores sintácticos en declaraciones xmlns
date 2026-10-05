@@ -1,0 +1,9 @@
+<!-- Ejercicio 1.29: Detección y corrección de errores sintácticos en declaraciones xmlns -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<documento xmlns:geo="https://normas.es/default" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Guía de Lenguajes de Marcas</dc:title>
+    <dc:creator>Roberto González</dc:creator>
+    <dc:date>2026</dc:date>
+    <geo:ubicacion>València</geo:ubicacion>
+</documento>

@@ -1,0 +1,11 @@
+<!-- Ejercicio 1.12: Corrección de nombres de etiqueta no válidos en numeros.xml -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<estadisticas>
+    <1trimestre>
+        <1puesto puntos="100">Albacete</1puesto>
+        <2puesto puntos="85">Toledo</2puesto>
+    </1trimestre>
+</estadisticas>
+
+<!-- Vióla la especificación oficial de nombres de elementos de XML porque las etiquetas no se escriben de esta manera <= -->

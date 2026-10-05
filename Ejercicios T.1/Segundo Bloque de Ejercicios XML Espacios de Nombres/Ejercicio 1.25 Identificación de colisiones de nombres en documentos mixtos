@@ -1,0 +1,21 @@
+<!-- Ejercicio 1.25: Identificación de colisiones de nombres en documentos mixtos -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<solicitudes xmlns: rrhh = "https/www.gestionpersonal.es/rrhh"
+			 xmlns: concurso = "https/www.consursodetraslados.es/concurso">
+			
+	<rrhh:recursos_humanos>
+		<rrhh:empleado>
+			<rrhh:nombre>Jaime</rrhh:nombre>
+			<rrhh:categoria>2</rrhh:categoria>
+			<rrhh:puesto>Jefe</rrhh:puesto>
+		</rrhh:empleado>
+	</rrhh:recursos_humanos>
+	<concurso:concurso>
+		<concurso:candidato>
+			<concurso:nombre>Tomás</concurso:nombre>
+			<concurso:puesto>56</concurso:puesto>
+			<concurso:puntuacion>1289</concurso:puntuacion>
+		</concurso:candidato>
+	</concurso:concurso>
+</solicitudes>

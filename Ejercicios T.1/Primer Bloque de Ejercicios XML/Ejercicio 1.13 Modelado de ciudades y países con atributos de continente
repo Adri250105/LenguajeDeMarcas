@@ -1,0 +1,23 @@
+<!-- Ejercicio 1.13: Modelo de ciudades y países con atributos de continente -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<paises>
+	<pais attr="Espanya">
+		<nombre>Espanya</nombre>
+		<capital>Madrid</capital>
+		<poblacion>100000</poblacion>
+		<idioma>Espanyol</idioma>
+	</pais>
+	<pais attr="Estados Unidos">
+		<nombre>Estados Unidos</nombre>
+		<capital>New York</capital>
+		<poblacion>100000</poblacion>
+		<idioma>Ingles</idioma>
+	</pais>
+	<pais attr="Japon">
+		<nombre>Japon</nombre>
+		<capital>Tokyo</capital>
+		<poblacion>100000</poblacion>
+		<idioma>Japones</idioma>
+	</pais>
+</paises>

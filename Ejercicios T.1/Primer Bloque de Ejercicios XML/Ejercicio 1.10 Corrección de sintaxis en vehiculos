@@ -1,0 +1,14 @@
+Ejercicio 1.10 Corección de sintaxis de vehiculos.xml
+
+<?xml version = "1.0" encoding="UTF-8?">
+<concesionario>
+	<vehiculo tipo = "turismo">
+		<marca>Toyota</marca>
+		<modelo>Yaris</modelo>
+		<matricula>1234-BBB</matricula>
+	</vehiculo>
+	<vehiculo>
+		<marca>Honda</marca>
+		<modelo>CB5000</modelo>
+	</vehiculo>
+</concesionario> 

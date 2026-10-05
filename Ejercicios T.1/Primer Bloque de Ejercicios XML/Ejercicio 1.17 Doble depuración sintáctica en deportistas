@@ -1,0 +1,24 @@
+<!-- Ejercicio 1.17: Doble depuración sintáctica en deportistas -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte Atletismo />
+        <nombre>Jesse Owens</nombre>
+    <deportista>
+        <deporte Natación />
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+
+<!-- esta mal porque la etiqueta deporte no esta bien cerrada -->
+
+<deportistas>
+    <deportista>
+        <deporte> Atletismo <deporte/>
+        <nombre>Jesse Owens</nombre>
+    <deportista>
+        <deporte> Natación <deporte/>
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>

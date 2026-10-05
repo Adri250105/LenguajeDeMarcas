@@ -1,0 +1,9 @@
+<!-- Ejercicio 1.22: Depuración en mundiales de fútbol y nombres no válidos -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales_de_futbol>
+    <mundial>
+        <pais="España" />
+        <anyo>1982</anyo>
+    </mundial>
+</mundiales_de_futbol>

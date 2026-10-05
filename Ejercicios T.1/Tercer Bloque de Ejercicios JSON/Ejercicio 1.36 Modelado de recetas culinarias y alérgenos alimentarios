@@ -1,0 +1,96 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Paella valenciana tradicional",
+      "dificultad": "media",
+      "tiempo_preparacion_minutos": 90,
+      "comensales": 4,
+      "ingredientes": [
+        {
+          "nombre": "Arroz bomba",
+          "cantidad": 400,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Pollo",
+          "cantidad": 500,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Conejo",
+          "cantidad": 400,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Bajoqueta (judía verde)",
+          "cantidad": 200,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Garrofón",
+          "cantidad": 100,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Tomate triturado",
+          "cantidad": 100,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Aceite de oliva virgen extra",
+          "cantidad": 3,
+          "unidad": "cucharadas"
+        },
+        {
+          "nombre": "Agua",
+          "cantidad": 1200,
+          "unidad": "mililitros"
+        }
+      ],
+      "alergenos": [],
+      "pasos_preparacion": [
+        "Sofrreír la carne condimentada con sal en la paella con el aceite de oliva hasta que esté bien dorada.",
+        "Añadir la bajoqueta y el garrofón, sofreírlos junto a la carne unos minutos.",
+        "Hacer un hueco en el centro, incorporar el tomate triturado y sofreírlo bien.",
+        "Vertir el agua y dejar cocer durante unos 15-20 minutos para crear el caldo concentrado.",
+        "Añadir el arroz distribuyéndolo en diagonal y repartirlo de forma uniforme por la paella.",
+        "Cocer a fuego vivo durante 8-10 minutos y luego bajar el fuego otros 8-10 minutos hasta que el arroz absorba el caldo y se forme el socarrat.",
+        "Dejar reposar 5 minutos tapado antes de servir."
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Horchata de chufa artesana",
+      "dificultad": "fácil",
+      "tiempo_preparacion_minutos": 30,
+      "comensales": 4,
+      "ingredientes": [
+        {
+          "nombre": "Chufas secas",
+          "cantidad": 250,
+          "unidad": "gramos"
+        },
+        {
+          "nombre": "Agua muy fría",
+          "cantidad": 1000,
+          "unidad": "mililitros"
+        },
+        {
+          "nombre": "Azúcar",
+          "cantidad": 80,
+          "unidad": "gramos"
+        }
+      ],
+      "alergenos": [],
+      "pasos_preparacion": [
+        "Lavar muy bien las chufas y dejarlas en remojo en abundante agua fría durante 24 horas, cambiando el agua 2 o 3 veces.",
+        "Escurrir las chufas y triturarlas junto con una parte del agua muy fría hasta obtener una pasta homogénea.",
+        "Añadir el resto del agua fría y triturar unos segundos más para integrar bien.",
+        "Pasar la mezcla por una tela fina o colador de tela (estameña) prensando con fuerza para extraer toda la leche de chufa.",
+        "Incorporar el azúcar y mezclar bien hasta que se disuelva por completo.",
+        "Servir muy fría o enfriar en el congelador removiendo de vez en cuando para conseguir textura granizada."
+      ]
+    }
+  ]
+}
